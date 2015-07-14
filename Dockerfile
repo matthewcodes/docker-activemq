@@ -15,4 +15,4 @@ RUN \
 WORKDIR $ACTIVEMQ_HOME
 EXPOSE 61616 8161 61613
 
-CMD ["/bin/bash", "-c", "bin/activemq start"]
+CMD ["/bin/bash", "-c", "bin/activemq console"]
