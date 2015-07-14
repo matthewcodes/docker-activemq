@@ -13,6 +13,6 @@ RUN \
     ln -s /opt/$ACTIVEMQ $ACTIVEMQ_HOME
 
 WORKDIR $ACTIVEMQ_HOME
-EXPOSE 61616 8161
+EXPOSE 61616 8161 61613
 
 CMD ["/bin/bash", "-c", "bin/activemq console"]
